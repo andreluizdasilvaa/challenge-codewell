@@ -1,0 +1,139 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:  Helvetica, Arial, sans-serif;
+    
+}
+
+body{
+    background-color: #F3EDE5;
+}
+
+p,a{
+    color: #6C6C6C;
+}
+/*-=-=-=-=-=-=-=-=-=-*/
+/*      HEADER       */
+/*-=-=-=-=-=-=-=-=-=-*/
+
+.Cabeça{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+}
+
+.Cabeça .Lista__links ul{
+    display: flex;
+    font-size: 1em;
+}
+
+.Cabeça .Lista__links ul li{
+    margin: 0 10px 0 10px;
+}
+
+.Cabeça .Lista__links ul li:hover, #sign-in:hover{
+    text-decoration: underline solid #6C6C6C;
+    
+}
+
+.Cadastro button{
+    background-color: transparent;
+    border: none;
+    font-size: .9em;
+    margin: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+
+.menu_hamburguer img{
+    display: none;
+}
+
+.openmenu_burguer{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.openmenu_burguer ul{
+    display: none;
+    text-align: center;
+}
+
+.openmenu_burguer ul li{
+    background-color: #fcfcfc;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+}
+
+/*-=-=-=-=-=-=-=-=-=-*/
+
+button.try_for_free a{
+    color: white;
+    background-color: #133416;
+    padding: 15px;
+    width: 130px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+/*-=-=-=-=-=-=-=-=-=-*/
+/*      CORPO        */
+/*-=-=-=-=-=-=-=-=-=-*/
+
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.txt__doctn{
+    width: 700px;
+}
+
+.txt__doctn h1{
+    font-size: 3em;
+}
+
+.txt__doctn p{
+    font-size: .85em;
+    justify-content: start;
+}
+
+.txt__doctn span{
+    color: #F7B300;
+}
+
+.img__doctn .img_call img{
+    margin: 0px 5px 0 5px;
+    width: 300px;
+}
+
+.txt__doctn button.try_for_free {
+    color: white;
+    background-color: #133416;
+    padding: 15px;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px 0px 10px;
+    font-size: .86em;
+    border: none;
+}
+
+/*-=-=-=-=-=-=-=-=-=-*/
+/*      RODAPÉ       */
+/*-=-=-=-=-=-=-=-=-=-*/
+
+footer ul,p{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    margin: 15px 15px 0 15px;
+}

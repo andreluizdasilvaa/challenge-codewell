@@ -1,0 +1,46 @@
+@media screen and (max-width: 875px) {
+    
+    footer ul,p{
+        text-align: center;
+    }
+
+    footer ul li{
+        display: flex;
+        justify-content: center;
+        margin: 15px 15px 15px 15px;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 855px){
+
+    .img__doctn .img_call img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 725px){
+
+    .Cabeça .Lista__links ul{
+        display: none;
+    }
+
+    .Cadastro button{
+        display: none;
+    }
+
+    .menu_hamburguer img{
+        display: block;
+        cursor: pointer;
+    }
+
+    .openmenu_burguer ul {
+        display: none;
+    }
+
+    
+}
